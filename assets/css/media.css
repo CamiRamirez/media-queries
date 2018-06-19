@@ -1,0 +1,43 @@
+/* Aqui definimos el tamaño min y maximo de un mediaquerie.
+Breakpoints:
+320px - 375px; GREEN
+376px - 666px; RED
+667px - 1024px; YELLOW
+1025px - 1600px; BLUE
+*/
+
+@media (min-width: 320px ) and (max-width: 375px) {
+  body{
+    background-color: green;
+  }
+  h1 {
+    font-size: 50px;
+  }
+}
+@media (min-width: 376px ) and (max-width: 666px) {
+  body{
+    background-color: red;
+  }
+  h1 {
+    font-size: 80;
+  }
+  h3{
+    display: none;
+  }
+}
+@media (min-width: 667px ) and (max-width: 1024px) {
+  body{
+    background-color: yellow;
+  }
+  h1 {
+    font-size: 100px;
+  }
+}
+@media (min-width: 1025px ) and (max-width: 1600px) {
+  body{
+    background-color: blue;
+  }
+  h1 {
+    font-size: 150px;
+  }
+}
